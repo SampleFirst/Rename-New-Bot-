@@ -13,7 +13,7 @@ from helper.date import add_date ,check_expi
 CHANNEL = os.environ.get('CHANNEL',"TrueDealsMaster")
 import datetime
 from datetime import date as date_
-STRING = os.environ.get("STRING","")
+STRING = os.environ.get("STRING","BQBWC-YgBcRxpozGiNOoWAzRkCQi94XPmy4X_o7kHCeELPl4FCNpRYgs3sHARgetk3qcwn5t6UktT1JRijj-BP4v9C87daGrWsje7GvmpdMEvZPMzG_InqlavMT5Gys1G8KAhMKxSpXDoR4a5l2KzUDdRMLZKRme5uBtIYv-BKJjr46jYqLHRpc4j4BPLHCDhzx4IZzbyEWD7e4Xatm61YFadi7Le6MBQl3W1uoMD3YIImKPQrx7J5RxZITpirULLW6l9hAYBD-8y1YNZPAndBBztmSlSM7w0x_kxZYh2Lbe-6IN05aBJdhSQDKGJHeSVPsEKZM8g32YhEnGMw6xm7ooAAAAATb5mV4A")
 log_channel = int(os.environ.get("LOG_CHANNEL",""))
 token = os.environ.get('TOKEN','')
 botid = token.split(':')[0]
